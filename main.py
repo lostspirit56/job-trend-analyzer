@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from rozee_scraper import scrape_rozee_jobs
+from scraper.rozee_scraper import scrape_rozee_jobs
 
 def run_scraper():
     jobs = scrape_rozee_jobs("data analyst")  # You can change the query here
